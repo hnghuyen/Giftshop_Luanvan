@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./src/assets/Logo.png" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gifty House</title>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <style>
+      df-messenger {
+        --df-messenger-bot-message: #fad2d8;              /* Bong bóng bot */
+        --df-messenger-user-message: #f892a9;             /* Bong bóng user */
+        --df-messenger-send-icon: #000000;                /* Icon gửi */
+        --df-messenger-button-titlebar-color: #ff99aa;    /* Thanh tiêu đề */
+        --df-messenger-font-color: #000000;               /* Màu chữ */
+
+        --df-messenger-chat-window-height: 80%; /* chỉ chiếm 80% màn hình */
+        z-index: 9999 !important;
+      }
+  </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+    
+<df-messenger
+    intent="WELCOME"
+    chat-title="GiftyHouse"
+    agent-id="aa66076e-63a4-4e43-aed7-e5e2373de649"
+    language-code="vi"
+></df-messenger>
+  </body>
+
+</html>

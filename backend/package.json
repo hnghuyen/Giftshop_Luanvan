@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Ngoc Huyen",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/main.js",
+    "dev": "nodemon src/main.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.2",
+    "bwip-js": "^4.7.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.15.1",
+    "morgan": "^1.10.0",
+    "multer": "^2.0.1",
+    "pdfkit": "^0.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
